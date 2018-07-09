@@ -17,4 +17,8 @@ class Artist
     self.songs << Song.new(name, self, genre)
   end
 
+  def songs
+    @songs
+  end
+
 end
