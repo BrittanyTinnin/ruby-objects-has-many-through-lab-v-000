@@ -12,6 +12,10 @@ class Genre
     @@all
   end
 
+  def new_song
+    Song.new(name, artist, self)
+  end
+
   def songs
 
   end
